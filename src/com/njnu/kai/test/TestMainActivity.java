@@ -42,7 +42,7 @@ import java.util.ArrayList;
  * @author kai.qian
  * @version 1.0.0
  */
-public class PracticeMainActivity extends ListActivity {
+public class TestMainActivity extends ListActivity {
 
     private static final String LOG_TAG = "TrainMainActivity";
 
@@ -89,7 +89,7 @@ public class PracticeMainActivity extends ListActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.main_train_entry);
-        BaseAdapter arrayAdapter = new PracticeMainAdapter(this, FUNCTIONS);
+        BaseAdapter arrayAdapter = new TestMainAdapter(this, FUNCTIONS);
         setListAdapter(arrayAdapter);
 
         UMQQSsoHandler qqSsoHandler = new UMQQSsoHandler(this, "100424468", "c7394704798a158208a74ab60104f0ba");

@@ -11,7 +11,7 @@ import com.njnu.kai.test.support.LogUtils;
  * @version 1.0.0
  * @since 14-4-29
  */
-public class PracticeApplication extends BaseApplication {
+public class TestApplication extends BaseApplication {
 
     private static final String TAG = "TrainApplication";
     private static boolean mSplashHasFinished = false;

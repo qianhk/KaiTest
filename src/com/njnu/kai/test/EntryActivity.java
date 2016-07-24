@@ -56,13 +56,13 @@ public class EntryActivity extends BaseActivity {
     protected void onResume() {
         super.onResume();
 
-        if (PracticeApplication.isSplashHasFinished()) {
+        if (TestApplication.isSplashHasFinished()) {
             startMainActivity();
         } else {
             getWindow().getDecorView().postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    PracticeApplication.setSplashAlreadyFinished();
+                    TestApplication.setSplashAlreadyFinished();
                     startMainActivity();
                 }
             }, 600);
@@ -70,7 +70,7 @@ public class EntryActivity extends BaseActivity {
     }
 
     private void startMainActivity() {
-        startActivity(new Intent(EntryActivity.this, PracticeMainActivity.class));
+        startActivity(new Intent(EntryActivity.this, TestMainActivity.class));
 //        finish();
     }
 }

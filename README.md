@@ -1,6 +1,6 @@
 # KaiTest
 
-ant构建的老式android功能测试项目
+此为ant构建的老式android功能测试项目, 不再更新,  gradle构建的新练习、功能试验项目链接为: [KaiPractice](https://github.com/qianhk/KaiPractice)
 
 自己测试功能时用的一个小程序，经常长时间的积累，已经有各种各样的试验，可以通过 *TrainMainActivity* 显示出来的功能列表选择进入，类似与Android官方示例ApiDemo。
 
@@ -26,5 +26,5 @@ ant构建的老式android功能测试项目
 
 10.**Fibonacci**  3种方法优化算法
 
-...
+以及其它一堆试验...
 

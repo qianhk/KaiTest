@@ -16,7 +16,7 @@ import java.util.ArrayList;
  * @version 1.0.0
  * @since 14-1-27
  */
-public class PracticeMainAdapter extends BaseAdapter {
+public class TestMainAdapter extends BaseAdapter {
 
     private ArrayList<FunctionItem> mFuncitonList;
     private Context mContext;
@@ -26,7 +26,7 @@ public class PracticeMainAdapter extends BaseAdapter {
         mTextColor = textColor;
     }
 
-    public PracticeMainAdapter(Context context, ArrayList<FunctionItem> funcitonList) {
+    public TestMainAdapter(Context context, ArrayList<FunctionItem> funcitonList) {
         mContext = context;
         mFuncitonList = funcitonList;
     }

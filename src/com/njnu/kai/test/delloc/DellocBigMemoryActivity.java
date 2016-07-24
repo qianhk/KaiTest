@@ -12,7 +12,7 @@ import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import com.njnu.kai.test.R;
-import com.njnu.kai.test.PracticeApplication;
+import com.njnu.kai.test.TestApplication;
 import com.njnu.kai.test.support.LogUtils;
 import com.njnu.kai.test.view.BigMemoryView;
 
@@ -70,7 +70,7 @@ public class DellocBigMemoryActivity extends Activity {
         }
         mHandler.sendEmptyMessageDelayed(0, 10 * 1000);
 
-        mAdapter = new DellocAdapter(PracticeApplication.getApp());
+        mAdapter = new DellocAdapter(TestApplication.getApp());
         mListView.setAdapter(mAdapter);
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

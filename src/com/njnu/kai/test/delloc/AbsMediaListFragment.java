@@ -22,7 +22,7 @@ import java.util.ArrayList;
 public abstract class AbsMediaListFragment extends BaseFragment {
 
     public ListView mListView;
-    private PracticeMainAdapter mAdapter;
+    private TestMainAdapter mAdapter;
     private int mTest = 8;
     private static long sStatic = 88;
     private static final long FINAL_NUMBER = 888;
@@ -53,7 +53,7 @@ public abstract class AbsMediaListFragment extends BaseFragment {
             dataList.add(new FunctionItem("Song Title_" + idx, Object.class));
         }
 
-        mAdapter = new PracticeMainAdapter(inflater.getContext(), dataList);
+        mAdapter = new TestMainAdapter(inflater.getContext(), dataList);
         mAdapter.setTextColor(Color.BLACK);
         mListView.setAdapter(mAdapter);
         mListView.setOnItemClickListener(mOnItemClickListener);
