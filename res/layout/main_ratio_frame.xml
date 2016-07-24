@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_size_small"
+            android:layout_width="wrap_content"
+            android:text="S1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_size_middle"
+            android:layout_width="wrap_content"
+            android:text="S2"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_size_large"
+            android:layout_width="wrap_content"
+            android:text="S3"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_ori"
+            android:layout_width="wrap_content"
+            android:text="O"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_hide"
+            android:layout_width="wrap_content"
+            android:text="Hide"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_display"
+            android:layout_width="wrap_content"
+            android:text="Display"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <include
+        layout="@layout/part_my_pic_text"
+        android:id="@+id/layout_pt"
+        android:layout_marginLeft="3px"
+        android:layout_marginTop="4px"
+        android:layout_width="96dp"
+        android:layout_height="96dp" />
+
+</LinearLayout>

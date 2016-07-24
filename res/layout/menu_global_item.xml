@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="60dp"
+    android:layout_height="80dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="4dp"
+    android:background="@drawable/xml_background_default"
+    >
+
+    <com.njnu.kai.test.view.IconTextView
+        android:id="@+id/itv_icon"
+        android:padding="10dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="test"
+        android:layout_marginTop="48dp"
+        android:textSize="14sp"
+        android:textColor="#333"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"/>
+
+    <com.njnu.kai.test.view.IconTextView
+        android:id="@+id/itv_indicator"
+        android:layout_width="6dp"
+        android:layout_height="6dp"
+        android:contentDescription="@android:string/unknownName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="8dp"
+        android:visibility="visible"
+        app:textColor="#F00"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:padding="10dp" android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn_small"
+        android:text="Small"
+        android:layout_marginLeft="40dp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_large"
+        android:text="Large"
+        android:layout_marginLeft="40dp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <!-- Here is one of the AutoScaleTextViews. Use android:textSize to set the preferred textsize. -->
+    <com.njnu.kai.test.view.AutoScaleTextView
+        android:id="@+id/atv_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Cupcake"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="#333333"
+        android:textSize="16dp" />
+
+    <com.njnu.kai.test.view.AutoScaleTextView
+        android:text="hhooyy"
+        android:layout_width="140dp"
+        android:layout_height="@dimen/auto_scale_text_height"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="#333333"
+        android:textSize="16dp" />
+
+    <com.njnu.kai.test.view.AutoScaleTextView
+        android:text="hhooyy中文国"
+        android:layout_width="200dp"
+        android:layout_height="@dimen/auto_scale_text_height"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:gravity="left"
+        android:background="#333333"
+        android:textSize="16dp" />
+
+    <com.njnu.kai.test.view.AutoScaleTextView
+        android:text="@string/eclair"
+        android:layout_width="@dimen/auto_scale_text_width"
+        android:layout_height="@dimen/auto_scale_text_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="#333333"
+        android:textSize="16dp" />
+
+    <com.njnu.kai.test.view.AutoScaleTextView
+        android:text="@string/froyo"
+        android:layout_width="@dimen/auto_scale_text_width"
+        android:layout_height="@dimen/auto_scale_text_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="#333333"
+        android:textSize="16dp" />
+
+    <com.njnu.kai.test.view.AutoScaleTextView
+        android:text="@string/gingerbread"
+        android:layout_width="@dimen/auto_scale_text_width"
+        android:layout_height="@dimen/auto_scale_text_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="#333333"
+        android:textSize="16dp" />
+
+    <com.njnu.kai.test.view.AutoScaleTextView
+        android:text="@string/honeycomb"
+        android:layout_width="@dimen/auto_scale_text_width"
+        android:layout_height="@dimen/auto_scale_text_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="#333333"
+        android:textSize="16dp" />
+
+    <com.njnu.kai.test.view.AutoScaleTextView
+        android:text="@string/ics"
+        android:layout_width="@dimen/auto_scale_text_width"
+        android:layout_height="@dimen/auto_scale_text_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="#333333"
+        android:textSize="16dp" />
+
+    <!-- Demo how to alter the minimum text size. -->
+    <com.njnu.kai.test.view.AutoScaleTextView
+        android:text="@string/ics"
+        android:layout_width="@dimen/auto_scale_text_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="#333333"
+        android:textSize="16dp"
+        app:minTextSize="12sp" />
+
+    <com.njnu.kai.test.view.AutoScaleTextView
+        android:text="@string/jellybean"
+        android:layout_width="@dimen/auto_scale_text_width"
+        android:layout_height="@dimen/auto_scale_text_height"
+        android:layout_gravity="center_horizontal"
+        android:background="#333333"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="16dp" />
+</LinearLayout>

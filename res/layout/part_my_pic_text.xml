@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.njnu.kai.test.ratiolayout.RatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                android:layout_width="96dp"
+                                                android:layout_height="96dp"
+                                                app:design_width="96dp"
+                                                app:ratio_width="1"
+                                                app:ratio_height="1"
+                                                app:scale_child="true"
+                                                android:background="#88118844"
+                                                android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_gravity="left|top"
+        android:id="@+id/iv_icon"
+        android:src="@drawable/img_dot" />
+
+    <com.njnu.kai.test.ratiolayout.DynamicSizeTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="left|top"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:background="#220000FF"
+        android:id="@+id/tv_title"
+        android:text="本地歌曲" />
+
+    <ImageView
+        android:id="@+id/iv_new_flag"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="68dp"
+        android:layout_marginRight="24dp"
+        android:layout_gravity="left|top"
+        android:background="#5500FF00"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</com.njnu.kai.test.ratiolayout.RatioFrameLayout>

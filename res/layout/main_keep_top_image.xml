@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="宽高正好" android:layout_marginTop="10dp"/>
+        <com.njnu.kai.test.view.KeepTopImageView
+            android:id="@+id/iv_1" android:layout_width="640px" android:layout_height="960px" android:src="@drawable/img_fitcenter_test" android:background="#F0F" android:scaleType="centerCrop"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="宽高正好 等比例" android:layout_marginTop="10dp"/>
+        <com.njnu.kai.test.view.KeepTopImageView
+            android:id="@+id/iv_2" android:layout_width="320px" android:layout_height="480px" android:src="@drawable/img_fitcenter_test" android:background="#F0F" android:scaleType="centerCrop"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="太宽" android:layout_marginTop="10dp"/>
+        <com.njnu.kai.test.view.KeepTopImageView
+            android:id="@+id/iv_3" android:layout_width="400px" android:layout_height="480px" android:src="@drawable/img_fitcenter_test" android:background="#F0F" android:scaleType="centerCrop"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="太高" android:layout_marginTop="10dp"/>
+        <com.njnu.kai.test.view.KeepTopImageView
+            android:id="@+id/iv_4" android:layout_width="320px" android:layout_height="600px" android:src="@drawable/img_fitcenter_test" android:background="#F0F" android:scaleType="centerCrop"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="宽放大 高缩小" android:layout_marginTop="10dp"/>
+        <com.njnu.kai.test.view.KeepTopImageView
+            android:id="@+id/iv_5" android:layout_width="768px" android:layout_height="900px" android:src="@drawable/img_fitcenter_test" android:background="#F0F" android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_launcher"
+            android:scaleType="fitCenter"
+            android:background="#9F0F"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+</ScrollView>

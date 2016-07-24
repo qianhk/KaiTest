@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_height">56dp</dimen>
+
+    <dimen name="auto_scale_text_width">100dp</dimen>
+    <dimen name="auto_scale_text_height">30dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="tab_indicator_height">3dp</dimen>
+
+</resources>

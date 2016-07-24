@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/layout_title"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#03A9FA"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+        <TextView
+                android:id="@+id/textview_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:text="点击向下展开"
+                />
+
+        <ImageView
+                android:id="@+id/imageview_state"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="2dp"
+                android:src="@drawable/ic_album"
+                />
+    </LinearLayout>
+
+
+    <com.njnu.kai.test.expand.ExpandableLinearLayout
+            android:id="@+id/expandView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F0F"
+            android:clickable="true">
+
+        <TextView
+                android:id="@+id/tv_item_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="项目列表1111"
+                android:textSize="14sp"
+                android:singleLine="false"
+                android:gravity="center"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:textColor="#FFFFFF"
+                android:drawablePadding="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="项目列表2"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:drawablePadding="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="项目列表3"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:drawablePadding="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="项目列表4"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:drawablePadding="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+    </com.njnu.kai.test.expand.ExpandableLinearLayout>
+
+    <TextView
+            android:text="展开收缩测试,底部view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

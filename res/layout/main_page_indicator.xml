@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#49bded"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_add"
+            android:text="Add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_remove"
+            android:text="Remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_left"
+            android:text="Left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_right"
+            android:text="Right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <com.njnu.kai.test.indicator.IconPageIndicator
+        android:padding="20dp"
+        android:background="#FFF"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/indicator" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_mode_one"
+            android:text="Mode One"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_mode_two"
+            android:text="Mode Two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_pop_menu_dialog"
+        android:text="PopGlobalMenuDialog"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.njnu.kai.test.view.GlobalMenuThumbImageView
+        android:layout_marginTop="88dp"
+        android:id="@+id/thumbImageView"
+        android:src="@drawable/img_menu_indicator_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:max="100"
+        android:layout_height="wrap_content" />
+
+    <com.njnu.kai.test.view.WrapFixedLinearLayout
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="match_parent"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#000"
+            android:scrollHorizontally="true"
+            android:text="AAAdasaasjfklasjdkflasdfasldfjlaksjdfkljaskw1w2w3w4w5w5w7w8"
+            android:background="#FFF"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="#8F01">
+
+            <View
+                android:layout_width="80dp"
+                android:background="#F0F"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </com.njnu.kai.test.view.WrapFixedLinearLayout>
+
+    <com.njnu.kai.test.view.WrapFixedLinearLayout
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:ellipsize="end"
+            android:textColor="#000"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:text="BBBdasaasjfklasjdkflasdfasldfjlaksjdfkljaskw1w2w3w4w5w5w7w8"
+            android:background="#FFF"
+            android:layout_height="20dp" />
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#8F01">
+
+            <View
+                android:layout_width="80dp"
+                android:background="#AFF"
+                android:layout_height="20dp" />
+        </RelativeLayout>
+    </com.njnu.kai.test.view.WrapFixedLinearLayout>
+
+    <com.njnu.kai.test.view.WrapFixedLinearLayout
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#000"
+            android:scrollHorizontally="true"
+            android:text="CCCCdasaasjfklasjdkflasdfasldfjlaksjdfkljaskw1w2w3w4w5w6w7w8"
+            android:background="#FFF"
+            android:layout_marginRight="15dp"
+            android:gravity="left|center_vertical"
+            android:layout_height="20dp" />
+
+        <View
+            android:layout_width="80dp"
+            android:background="#FAF"
+            android:layout_height="20dp" />
+    </com.njnu.kai.test.view.WrapFixedLinearLayout>
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#000"
+        android:scrollHorizontally="true"
+        android:gravity="left|center_vertical"
+        android:text="DDDDw1w2w3w4w5w6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#000"
+        android:scrollHorizontally="true"
+        android:gravity="left|center_vertical"
+        android:text="EEEEdasaasjfklasjdkflasdfasldfjlaksjdfkljaskw1w2w3w4w5w6w7w8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.njnu.kai.test.dragupdatelist.ModifySizeNotifyLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+	<include
+			android:id="@+id/drag_update_layout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			layout="@layout/drag_update_layout"/>
+</com.njnu.kai.test.dragupdatelist.ModifySizeNotifyLayout>

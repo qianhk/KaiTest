@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionManager xmlns:app="http://schemas.android.com/apk/res-auto">
+    <transition
+        app:toScene="@layout/main_barrage_scene2"
+        app:transition="@anim/scene_transition"/>
+    <transition
+        app:toScene="@layout/main_barrage_scene1"
+        app:transition="@anim/scene_transition"/>
+</transitionManager>

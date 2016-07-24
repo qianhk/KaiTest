@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/drag_layout_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_action"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="展开或收起"
+        android:background="#444"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.njnu.kai.test.expand.ExpandContentLayout
+        android:id="@+id/layout_expand_content_layout"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.njnu.kai.test.expand.ProgressView
+            android:id="@+id/pv_0"
+            android:text="Def"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_height="24dp" />
+
+        <com.njnu.kai.test.expand.ProgressView
+            android:id="@+id/pv_1"
+            android:text="Def"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <com.njnu.kai.test.expand.ProgressView
+            android:id="@+id/pv_2"
+            android:text="xyz"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <com.njnu.kai.test.expand.ProgressView
+            android:id="@+id/pv_3"
+            android:text="Ghi"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <com.njnu.kai.test.expand.ProgressView
+            android:id="@+id/pv_4"
+            android:text="OPQ"
+            android:paddingTop="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <com.njnu.kai.test.expand.ProgressView
+            android:id="@+id/pv_5"
+            android:text="RST"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+    </com.njnu.kai.test.expand.ExpandContentLayout>
+</LinearLayout>

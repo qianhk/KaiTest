@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_share_text"
+                android:layout_marginTop="4dp"
+                android:text="纯文字分享"
+                android:onClick="onShareButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_share_pic"
+                android:layout_marginTop="4dp"
+                android:text="纯图片分享"
+                android:onClick="onShareButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_share_text_pic"
+                android:layout_marginTop="4dp"
+                android:text="图文分享"
+                android:onClick="onShareButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_share_song"
+                android:layout_marginTop="4dp"
+                android:text="歌曲分享"
+                android:onClick="onShareButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_share_video"
+                android:layout_marginTop="4dp"
+                android:text="视频分享"
+                android:onClick="onShareButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_user_flush_oauth"
+                android:layout_marginTop="4dp"
+                android:text="刷新授权信息"
+                android:onClick="onUserButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_delete_auth"
+                android:layout_marginTop="4dp"
+                android:text="取消授权"
+                android:onClick="onShareButtonClick"
+                android:textColor="#FFFF00"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_user_do_oauth"
+                android:layout_marginTop="4dp"
+                android:text="获取授权"
+                android:onClick="onUserButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_get_user_info"
+                android:layout_marginTop="4dp"
+                android:text="GetUserInfo"
+                android:onClick="onApiButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_getFriends"
+                android:layout_marginTop="4dp"
+                android:text="getFriends"
+                android:onClick="onApiButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_api_get_platform_key"
+                android:layout_marginTop="4dp"
+                android:text="getPlatformKeys"
+                android:textSize="14sp"
+                android:onClick="onApiButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_check_token_expired"
+                android:layout_marginTop="4dp"
+                android:text="checkTokenExpired"
+                android:textSize="14sp"
+                android:onClick="onApiButtonClick"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:textSize="12sp"
+            android:singleLine="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

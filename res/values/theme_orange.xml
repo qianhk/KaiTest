@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OrangeTheme" parent="@style/AppTheme">
+        <item name="content_text_color">@color/orange</item>
+    </style>
+</resources>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/normal_background"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.njnu.kai.test.view.IconTextView
+                android:layout_marginLeft="8dp"
+                android:background="@color/mask_background"
+                android:id="@+id/itv_11"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_12"
+                android:layout_marginLeft="8dp"
+                android:background="@color/mask_background"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_13"
+                android:layout_marginLeft="8dp"
+                android:background="@color/mask_background"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_14"
+                android:layout_marginLeft="8dp"
+                android:background="@color/mask_background"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_21"
+                android:layout_marginLeft="8dp"
+                android:gravity="center"
+                android:background="@color/mask_background"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_22"
+                android:layout_marginLeft="8dp"
+                android:background="@color/mask_background"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_23"
+                android:layout_marginLeft="8dp"
+                android:background="@color/mask_background"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_24"
+                android:layout_marginLeft="8dp"
+                android:background="@color/mask_background"
+                android:clickable="true"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_31"
+                android:layout_marginLeft="8dp"
+                app:textColor="#0000FF"
+                android:background="@color/mask_background"
+                android:layout_width="40dp"
+                android:layout_height="80dp" />
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_32"
+                android:layout_marginLeft="8dp"
+                android:background="@color/mask_background"
+                android:paddingLeft="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_33"
+                android:layout_marginLeft="8dp"
+                android:background="@color/mask_background"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_34"
+                android:layout_marginLeft="8dp"
+                android:background="@color/mask_background"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:layout_marginLeft="4dp"
+                android:id="@+id/tv_test_text"
+                android:clickable="true"
+                android:textSize="24sp"
+                android:text="测试文字-凯凯"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_41"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/xml_media_list_selector"
+                app:text="凯"
+                app:textColor="@color/xml_color_magenta"
+                android:clickable="true"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_42"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/xml_media_list_selector"
+                app:text="凯"
+                android:clickable="true"
+                app:textSize="120px"
+                app:textColor="@color/xml_color_magenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:background="@color/mask_background"
+                android:gravity="center"
+                android:textSize="140px"
+                android:text="凯"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:background="@color/mask_background"
+                android:gravity="center"
+                android:textSize="160px"
+                android:text="凯"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <com.njnu.kai.test.support.TestLinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_51"
+                android:padding="0dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                app:text="@string/icon_flush"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_52"
+                android:layout_marginLeft="8dp"
+                android:clickable="true"
+                android:background="@drawable/xml_media_list_selector"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <ImageView
+                android:id="@+id/iv_53"
+                android:background="@color/mask_background"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/img_flush"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+
+            <FrameLayout
+                android:id="@+id/itv_layout_54"
+                android:padding="8dp"
+                android:clickable="true"
+                android:background="#10F0"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content">
+
+                <com.njnu.kai.test.view.IconTextView
+                    android:id="@+id/itv_54"
+                    android:background="@drawable/xml_media_list_selector"
+                    app:text="凯"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+            </FrameLayout>
+
+        </com.njnu.kai.test.support.TestLinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_61"
+                android:layout_marginLeft="8dp"
+                android:background="@color/mask_background"
+                app:text="@string/icon_hui"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_62"
+                android:layout_marginLeft="8dp"
+                android:background="@color/mask_background"
+                app:text="@string/icon_flush"
+                android:layout_width="77dp"
+                android:layout_height="77dp" />
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_63"
+                android:background="@color/mask_background"
+                android:layout_marginLeft="8dp"
+                app:text="@string/icon_circle"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <com.njnu.kai.test.view.IconTextView
+                android:id="@+id/itv_64"
+                android:layout_marginLeft="8dp"
+                app:text="@string/icon_flush2"
+                android:layout_width="66dp"
+                android:layout_height="66dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
